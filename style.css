@@ -148,3 +148,12 @@ body {
   color: black;
   line-height: 1.5;
 }
+
+@media screen and (max-width: 600px) {
+  .card {
+    width: 40%;
+  }
+  .details img{
+    width: 85%;
+  }
+}
